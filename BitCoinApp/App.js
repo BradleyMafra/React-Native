@@ -33,7 +33,6 @@ async function getListCoins(url) {
   })
   let data = queryCoinsList.reverse();
   console.log(data);
-  return data;
 }
 
 async function getPriceCoinsGraphic(url) {
